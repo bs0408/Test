@@ -16,6 +16,11 @@ public class RestControllerApp {
 		
 		
 	}
+
+	public void getHello(){
+		System.out.println("Hello from grtHello");
+
+	}
 	
 	@GetMapping("/getDate")
 	public Date getDate1() {

@@ -17,6 +17,13 @@ public class RestControllerApp {
 		
 	}
 	
+	public void getHello12() {
+		
+		System.out.println("get Hello from rest");
+		System.out.println("Hello from eclipse");
+		
+	}
+	
 	@GetMapping("/getDate")
 	public Date getDate1() {
 		

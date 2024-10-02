@@ -13,13 +13,18 @@ public class RestControllerApp {
 		
 		return "App is running...";
 		
+		
+		
 	}
 	
-	@GetMapping("/getDate")
-	public Date getDate() {
+	@GetMapping("/getTime")
+	public int getDateAndTime() {
 		
-		return new Date();
+		Date date=new Date();
+		return date.getDay();
+		
 		
 	}
-
+	
+	
 }

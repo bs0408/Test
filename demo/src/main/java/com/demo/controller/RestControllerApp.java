@@ -12,13 +12,8 @@ public class RestControllerApp {
 	public String getStatus()  {
 		
 		return "App is running...";
-
-	}
-	
-	@GetMapping("/getDate")
-	public Date getDate() {
 		
-		return new Date();
+		
 		
 	}
 	
@@ -27,7 +22,8 @@ public class RestControllerApp {
 		
 		Date date=new Date();
 		return date.getDay();
-	
+		
+		
 	}
 	
 	

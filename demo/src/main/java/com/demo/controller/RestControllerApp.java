@@ -17,6 +17,21 @@ public class RestControllerApp {
 		
 	}
 	
+	@GetMapping("/getDate")
+	public Date getDate1() {
+		
+		System.out.println("getDate Testing: ");
+		return new Date();
+		
+		
+	}
+	
+	
+	public void getm1() {
+		
+		System.out.println("Hello:");
+	}
+	
 	@GetMapping("/getTime")
 	public int getDateAndTime() {
 		
